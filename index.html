@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+  <title>Insure landing page</title>
+
+
+</head>
+<body>
+
+  <header class="relative flex items-center justify-between p-5">
+    <div>
+      <img src="./images/logo.svg" alt="insure logo">
+    </div>
+
+<nav class="navbar hidden absolute top-16 right-0 -bottom-0 left-0 bg-gray-900 h-screen" id="navbar">
+  <ul>
+  <li class="my-3 text-center"><a href="#" class="text-white uppercase">How We Work</a></li>
+  <li class="my-3 text-center"><a href="#" class="text-white uppercase">Blog</a></li>
+  <li class="my-3 text-center"><a href="#" class="text-white uppercase"></a>Account</li>
+  <li class="my-3 text-center border-2 border-white py-2 px-6 uppercase text-white w-40 mx-auto"><a href="#" class="text-white uppercase">View Plans</a></li>
+<li><img src="./images/bg-pattern-mobile-nav.svg" alt="" class="absolute right-0 bottom-60 w-full z-10"></li>
+</ul></nav>
+
+    <div class="cursor-pointer" id="menu-btn">
+     <img src="./images/icon-hamburger.svg" alt="">
+    </div>
+  </header>
+
+ <!--  How we work
+  Blog
+  Account
+  View plans -->
+
+
+  <section class="showcase">
+    <div class="mobile-image">
+      <img src="./images/image-intro-mobile.jpg" alt="" class="w-full">
+    </div>
+    <div class="relative showcase-inner py-20 px-5">
+      <img src="./images/bg-pattern-intro-left-mobile.svg" alt="" class="absolute top-0 left-0">
+      <h1 class="text-white text-5xl text-center">
+        Humanizing your insurance.
+      </h1>
+      <p class="text-white text-center mt-5 mb-10">
+        Get your life insurance coverage easier and faster. We blend our expertise 
+        and technology to help you find the plan that’s right for you. Ensure you 
+        and your loved ones are protected.
+      </p>
+      <div class="text-center">
+     
+        <button class="border-2 border-white py-2 px-6 uppercase text-white block mx-auto">View plans</button>
+   <img src="./images/bg-pattern-intro-right-mobile.svg" alt="" class="absolute -bottom-40 right-0">
+      </div>
+     
+    </div>
+  </section>
+
+
+  <section class="grid-items pt-44 pb-20 xl:mx-40">
+  <div class="underline mx=auto lg:mx-10 "></div>
+      <h2 class="text-center text-4xl mt-5 mb-10 lg:text-left px-10"> We’re different</h2>
+    
+      <div class="cards grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3  lg:px-10">
+      <div class="card text-center px-10 lg:text-left  lg:px-0">
+        <img src="./images/icon-snappy-process.svg" alt="" class="block mx-auto  lg:ml-0">
+        <h3 class="my-5">  Snappy Process</h3>
+        <p>  Our application process can be completed in minutes, not hours. Don’t get 
+        stuck filling in tedious forms.</p>
+      </div>
+      <div class="card text-center px-10 lg:text-left  lg:px-0">
+        <img src="./images/icon-affordable-prices.svg" alt="" class="block mx-auto lg:ml-0">
+        <h3 class="my-5">    Affordable Prices</h3>
+        <p>    We don’t want you worrying about high monthly costs. Our prices may be low, 
+          but we still offer the best coverage possible.</p>
+      </div>
+      <div class="card text-center px-10 lg:text-left  lg:px-0">
+        <img src="./images/icon-people-first.svg" alt="" class="block mx-auto lg:ml-0" >
+        <h3 class="my-5">   People First</h3>
+        <p>  
+          Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+          sure you’re covered when you need it.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="showcase-inner mx-5 lg:hidden ">
+
+    <div class="relative text-center py-20">
+      <h3 class="text-white text-4xl px-10 mb-5">  Find out more about how we work</h3>
+      <button class="border-2 border-white py-2 px-6 uppercase text-white">How we work</button>
+   <img src="./images/bg-pattern-how-we-work-mobile.svg" alt="" class="absolute top-0 right-0 w-40">
+    </div>
+  </section>
+
+  
+  <section class="relative showcase-inner hidden lg:block lg:py-28 lg:mx-10 xl:mx-40">
+    <img src="./images/bg-pattern-how-we-work-desktop.svg" alt="" class="absolute right-0 top-0">
+    <div class="px-10 flex items-center justify-between">
+      <h3 class="text-white text-5xl w-1/2">Find out more about how we work</h3>
+      <button>How We Work</button>
+    </div>
+  </section>
+ 
+
+  <footer class="pt-10 pb-20 mt-20 text-center bg-gray-100 relative ">
+    <img src="./images/bg-pattern-footer-mobile.svg" alt="" class="w-full absolute top-0">
+    <div class=" sm:grid sm:grid-cols-2 sm:gap-10">
+
+   
+    <div class="pt-36 sm:pt-0">
+       <img src="./images/logo.svg" alt="" class="block mx-auto"><div>
+
+  </div>
+  <ul class="flex items-center justify-center my-5 pb-5 border-b border-gray-600 mx-5">
+    <li class="mx-3 text-gray-600 text-2xl"><i class="fab fa-facebook"></i></li>
+    <li class="mx-3 text-gray-600 text-2xl"><i class="fab fa-twitter"></i></li>
+    <li class="mx-3 text-gray-600 text-2xl"><i class="fab fa-pinterest"></i></li>
+    <li class="mx-3 text-gray-600 text-2xl"><i class="fab fa-instagram"></i></li>
+  </ul></div>
+   
+  <div>
+    <h3> Our company</h3>
+    <ul>
+      <li> <a href="#" class="uppercase my-1 z-10">How we work</a> </li>
+      <li> <a href="#" class="uppercase my-1 z-10">Why Insure?</a></li>
+      <li> <a href="#" class="uppercase my-1 z-10">View plans</a></li>
+      <li> <a href="#" class="uppercase my-1 z-10">Reviews</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>  Help me</h3>
+    <ul>
+      <li> <a href="#" class="uppercase my-1 z-10"> FAQ</a> </li>
+      <li> <a href="#" class="uppercase my-1 z-10"> Terms of use</a></li>
+      <li> <a href="#" class="uppercase my-1 z-10"> Privacy policy</a></li>
+      <li> <a href="#" class="uppercase my-1 z-10"> Cookies</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>   Contact</h3>
+    <ul>
+      <li> <a href="#" class="uppercase my-1 z-10">Sales</a> </li>
+      <li> <a href="#" class="uppercase my-1 z-10"> Support</a></li>
+      <li> <a href="#" class="uppercase my-1 z-10"> Live chat</a></li>
+      <li> <a href="#" class="uppercase my-1 z-10"> Others</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3> Our company</h3>
+    <ul>
+      <li> <a href="#" class="uppercase my-1 z-10"> Careers</a> </li>
+      <li> <a href="#" class="uppercase my-1 z-10"> Press</a></li>
+      <li> <a href="#" class="uppercase my-1 z-10"> Licenses </a></li>
+    </ul>
+  </div>
+</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

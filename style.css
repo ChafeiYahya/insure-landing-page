@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=karla:wght@400;700&display=swap');
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "DM Serif Display", sans-serif;
+}
+
+body{
+    font-family: "Karla", sans-serif;
+}
+
+.showcase-inner {
+    background-color: hsl(256, 26%, 20%);
+}
+
+.underline{
+    background-color: #c7c7c7;
+width: 150px;
+height: 1px;
+
+}
+
+
+footer h3 {
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+
+
+.navbnar.open {
+    display: block;
+}
+
+/* Default styles for the mobile image */
+.mobile-image {
+    display: none; /* Hide the image by default */
+  }
+  
+  /* Media query for small screens (mobile) */
+  @media (max-width: 767px) {
+    .mobile-image {
+      display: block; /* Show the image on small screens */
+    }
+  }
+  
